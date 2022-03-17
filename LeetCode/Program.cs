@@ -7,8 +7,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        MergeTwoSortedArrays ob = new MergeTwoSortedArrays();
+        Kanade_sAlgorithm ob = new Kanade_sAlgorithm();
         ob.getInput();
-        ob.getSortedMergedArray();
+        ob.getMaximumSubArray();
     }
 }
