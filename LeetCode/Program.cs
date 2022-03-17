@@ -7,8 +7,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        DuplicateNumber_s_ ob = new DuplicateNumber_s_();
+        MergeTwoSortedArrays ob = new MergeTwoSortedArrays();
         ob.getInput();
-        ob.getDuplicateElements();
+        ob.getSortedMergedArray();
     }
 }
