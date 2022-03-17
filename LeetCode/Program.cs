@@ -7,8 +7,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        MissingNumber ob = new MissingNumber();
-        ob.getSortedInput();
-        ob.getMissingNumber();
+        DuplicateNumber_s_ ob = new DuplicateNumber_s_();
+        ob.getInput();
+        ob.getDuplicateElements();
     }
 }
