@@ -7,8 +7,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        ZeroOneArraySortingWithoutSorting ob = new ZeroOneArraySortingWithoutSorting();
-        ob.getInputAndCalculateNumberOfZeroAndTwos();
-        ob.printArrayOfZeroAndTwos();
+        MissingNumber ob = new MissingNumber();
+        ob.getSortedInput();
+        ob.getMissingNumber();
     }
 }
