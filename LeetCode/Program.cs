@@ -7,8 +7,9 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Kanade_sAlgorithm ob = new Kanade_sAlgorithm();
+        MergeOverlappingIntervals ob = new MergeOverlappingIntervals();
         ob.getInput();
-        ob.getMaximumSubArray();
+        ob.sortInputValues();
+        ob.getMaximumOverLappingSubIntervals();
     }
 }
