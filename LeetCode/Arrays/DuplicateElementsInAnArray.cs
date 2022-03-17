@@ -1,4 +1,4 @@
-﻿using System;
+﻿//Find the duplicate elements in an array of N elements.
 using System.Collections;
 
 namespace Leetcode.Arrays
