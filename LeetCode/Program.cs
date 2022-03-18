@@ -7,8 +7,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        RotateArray ob = new RotateArray();
+        BestTimeToBuyAndSell ob = new BestTimeToBuyAndSell();
         ob.getInput();
-        ob.getRotatedArray();
+        ob.getBestToVuyAndSell();
     }
 }
