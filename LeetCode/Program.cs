@@ -7,7 +7,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        SetMatrixZeroes ob = new SetMatrixZeroes();
-        ob.getInputAndSetValues();
+        RotateArray ob = new RotateArray();
+        ob.getInput();
+        ob.getRotatedArray();
     }
 }
