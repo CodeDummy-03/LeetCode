@@ -7,9 +7,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        MergeOverlappingIntervals ob = new MergeOverlappingIntervals();
-        ob.getInput();
-        ob.sortInputValues();
-        ob.getMaximumOverLappingSubIntervals();
+        SetMatrixZeroes ob = new SetMatrixZeroes();
+        ob.getInputAndSetValues();
     }
 }
